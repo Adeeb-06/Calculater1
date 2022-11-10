@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Inter:wght@300&family=Poppins:wght@500&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text"  id="inputtext" placeholder="0">
+            <button onclick="clr()">C</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button onclick="calculate('*')">*</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate(1)">1</button>
+            <button onclick="calculate(2)">2</button>
+            <button onclick="calculate(3)">3</button>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate(0)">0</button>
+            <button onclick="calculate('.')">.</button>
+            <button onclick="Result()" class="equal">=</button>
+           
+
+        </div>
+    </div>
+   
+    <script src="calculator.js"></script>
+</body>
+</html>
